@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 class HealthController {
 
-    @GetMapping("/healthz")
-    fun greeting() = "I'm alive"
+    @GetMapping("/health")
+    fun greeting() = "Healthy!!"
 }
